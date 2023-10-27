@@ -2,6 +2,7 @@ import torch
 import random
 import numpy as np
 
+q=3
 def create_test_movie(n_rows=2, n_cols=3, n_times=10, omega=2, noise_std=0.1):
     
     A = torch.randn(n_rows, n_cols)  # Gaussian sampled tensor centered at 0

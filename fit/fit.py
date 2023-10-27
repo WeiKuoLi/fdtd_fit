@@ -1,10 +1,12 @@
+import sys
+sys.path = ["../test"] + sys.path
 import torch
 import torch.nn as nn
 import torch.optim as optim
 import numpy as np
 import matplotlib.pyplot as plt
 import math
-from fit.test import create_test_movie
+from test.test import create_test_movie
 
 
 # Step 2: Define the model

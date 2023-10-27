@@ -89,7 +89,7 @@ if __name__=="__main__":
 
     # get time_index_list time_list
     t_sk, t_nm = config['time_skip'], config['time_num']
-    time_index_list = [t_sk * (1 + i) for i in range(t_nm])]
+    time_index_list = [t_sk * (1 + i) for i in range(t_nm)]
     time_list = [index * dt for index in time_index_list ]
     
     #coords_limit = [0, 10, 0, 12]
