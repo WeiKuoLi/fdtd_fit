@@ -1,0 +1,23 @@
+
+
+
+
+more dipole per E field sampling
+
+check gc average to 0
+
+off resonance calculation as a check
+
+gp calculation from absorption spectra
+
+plasmon gauge is okay
+
+phase sign of gcj is important or not
+
+3 x 3 eff Hamiltonian does not care about gc phase but 4 x 4 non hermitian does care.  
+
+gcj phase comes from field propagation from disk to mols. It might be important to discuss interference pattern comming from mols
+
+bottom line gcj standard deviation is not real and its phase is crucial to the spectra when gvj is non zero
+
+

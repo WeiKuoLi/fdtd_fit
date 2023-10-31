@@ -95,7 +95,7 @@ if (__name__=='__main__'):
     '''
     mol = oscillator(2.7, .3, 6)
     mol2 = oscillator(2.7, .2, .3, .54)
-    list_mol = [mol2 for i in range(100)]
+    list_mol = [mol2 for i in range(1000)]
     list_mol[0] = mol
     dp = config['dp']
     r1 = config['radius']
